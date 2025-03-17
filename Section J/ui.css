@@ -1,0 +1,50 @@
+header {
+        text-align: center;
+        height: 200px;
+        width: 1080px;
+        background-color: aqua;
+      }
+      nav {
+        text-align: center;
+        height: 160px;
+        width: 600px;
+        background-color: rgb(135, 143, 63);
+        float: left;
+      }
+      footer {
+        text-align: center;
+        height: 200px;
+        width: 1080px;
+        color: aliceblue;
+        background-color: rgb(68, 38, 65);
+      }
+      .section1 {
+        height: 160px;
+        width: 200px;
+        background-color: rgb(165, 112, 114);
+        float: left;
+      }
+      .section2 {
+        height: 600px;
+        width: 1080px;
+        background-color: rgb(72, 98, 98);
+      }
+      .aside1 {
+        height: 560px;
+        width: 200px;
+        background-color: rgb(114, 150, 112);
+        float: left;
+      }
+      .main-content {
+        height: 560px;
+        width: 550px;
+        color: aliceblue;
+        background-color: rgb(50, 41, 83);
+        float: left;
+      }
+      .aside2 {
+        height: 560px;
+        width: 200px;
+        background-color: rgb(197, 159, 148);
+        float: left;
+      }
