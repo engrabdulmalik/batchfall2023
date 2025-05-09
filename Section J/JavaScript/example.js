@@ -56,6 +56,12 @@
 // console.log(blankArray);
 
 
-Write a function which takes an array of fruits and mutates it 
-with new fruits and return the newly mutated array and also pop fruits 
+// Write a function which takes an array of fruits and mutates it 
+// with new fruits and return the newly mutated array and also pop fruits 
 
+// console.log(Math.PI);
+// console.log(Math.E); //Math.PI
+// console.log(Math.random()*10); // 0-1
+
+var myString = "Hello, World!";
+console.log(myString.indexOf("W"));
