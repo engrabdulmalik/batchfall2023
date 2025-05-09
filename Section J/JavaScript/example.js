@@ -37,3 +37,25 @@
 // console.log(table);
 // console.log(table.type);
 // console.log(table["color"]);
+
+
+// var blankArray = [];
+
+// blankArray.push("a");
+// blankArray.push("b");
+// blankArray.push("c");
+// blankArray.push("d");
+// blankArray.push("e");
+
+// console.log(blankArray);
+
+// blankArray.pop();
+// blankArray.pop();
+// blankArray.pop();
+
+// console.log(blankArray);
+
+
+Write a function which takes an array of fruits and mutates it 
+with new fruits and return the newly mutated array and also pop fruits 
+
