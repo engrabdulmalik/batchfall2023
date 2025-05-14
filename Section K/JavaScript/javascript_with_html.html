@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My JS Example</title>
+  </head>
+  <body>
+    <script>
+      let todo1 = "Get Groceries";
+      let todo2 = "Wash Car";
+      let todo3 = "Clean House";
+
+      var myTodos = [todo1, todo2, todo3];
+      myTodos.push("new Task")
+      myTodos.forEach(function (todoTitle) {
+        let element = document.createElement("div");
+        element.innerText = todoTitle;
+        document.body.appendChild(element);
+      });
+    </script>
+  </body>
+</html>
