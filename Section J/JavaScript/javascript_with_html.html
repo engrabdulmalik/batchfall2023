@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My JS Example</title>
+  </head>
+  <body>
+    <h1>Todo List</h1>
+    
+    <label for="todoInput">Enter todo</label>
+    <input type="text" id="todoInput" placeholder="Enter a new todo" />
+    <label for="todoDate">Enter date</label>
+    <input type="date" id="todoDate" />
+    <button onclick="addTodo()">Add Todo</button>
+
+    <script>
+      let todo1 = "Get Groceries";
+      let todo2 = "Car Wash";
+      let todo3 = "Gym";
+      let todo4 = "Read a Book";
+      var todos = [todo1, todo2, todo3, todo4];
+     
+      function addTodo() {
+        let newTodo = document.getElementById("todoInput").value;
+        todos.push(newTodo);
+       render();
+      }
+
+      function render() {
+        // Clear the existing todos
+        document.body.innerHTML = "<h1>Todo List</h1><button onclick='addTodo()'>Add Todo</button>";
+        todos.forEach(function (todoElement) {
+          let element = document.createElement("div");
+          element.innerText = todoElement;
+          document.body.appendChild(element);
+        });
+      }
+
+     
+    </script>
+  </body>
+</html>
